@@ -1,10 +1,29 @@
-.Home{
+.home-bg{
     background-color: #1F1F1F;
 }
-.banner-overlay{
-    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.788), rgba(255, 255, 255, 0));
+.banner-section{
+    background-image: url("../../../public/banner2.png");
+    background-size: cover;
 }
 .overlay-content{
+    width: 80%;
+    max-width: 800px;
+    margin-top: 15%;
+}
+.package{
+    width: 85%;
+    max-width: 450px;
+}
+.payment img{
+    width: 90%;
+    max-width: 300px;
+}
+.ad{
     width: 50%;
-    min-width: 600px;
+}
+@media screen and (max-width: 452px) {
+    .ad{
+        width: 30%;
+        height: 50%;
+    }
 }
